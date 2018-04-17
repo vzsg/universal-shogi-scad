@@ -21,9 +21,8 @@ Any of the following should work:
 
 ## Printing
 
-The sunken symbols are optimized for multicolor printing on budget printers that support the `M600` Change Filament command in G-code. Tested on a BQ Hephestos.
+The sunken symbols are optimized for multicolor printing on budget printers that support the `M600` Change Filament command in G-code. Tested on a BQ Hephestos, with no support structures.
 
 If you set your slicer to use 0.25 mm layer height, the pieces will consist of 24 layers - an easily divisible number. See the following chart for suggested color changes per piece.
 
 ![shogi sandwich](https://user-images.githubusercontent.com/1783465/38902809-642a84c8-42a2-11e8-803c-634e4251fad8.png)
-
