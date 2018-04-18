@@ -1,4 +1,6 @@
-module shogi_piece(thick=6) {
+include <consts.scad>;
+
+module shogi_piece(thick=9.6) {
     unit=thick/12;
 
     difference() {
