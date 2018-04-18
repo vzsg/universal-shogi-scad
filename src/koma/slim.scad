@@ -12,3 +12,5 @@ module shogi_koma_slim(width=30, length=40, rounding=2) {
         circle(rounding);
     }
 }
+
+shogi_koma_slim();

@@ -37,3 +37,5 @@ module shogi_move_jump(radius=6, thick=0.6) {
     translate([-radius-thick, radius+thick]) circle(thick);
     translate([+radius+thick, radius+thick]) circle(thick);
 }
+
+shogi_move_jump();

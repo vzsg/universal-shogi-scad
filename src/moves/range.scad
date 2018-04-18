@@ -13,3 +13,5 @@ module shogi_move_range(edges=[0], thick=0.6) {
         }
     }
 }
+
+shogi_move_range(edges=[0, 2, 4, 6]);

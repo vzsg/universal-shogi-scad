@@ -9,3 +9,5 @@ module shogi_rank_2(thick=0.6) {
         translate([12.7, 13.148182, 0]) circle(thick);
     }
 }
+
+shogi_rank_2();
