@@ -1,4 +1,4 @@
-module shogi_koma_slim(width=30, length=40, rounding=2) {
+module shogi_koma_slim(width=24, length=32, rounding=2) {
     points=[
         [width/6 , 0],
         [0, length*0.8],
