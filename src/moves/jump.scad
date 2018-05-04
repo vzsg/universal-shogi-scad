@@ -27,15 +27,15 @@ module arc(radius, thick, angle) {
 }
 
 module shogi_move_jump(radius=6, thick=0.6) {
-    translate([-radius-thick, 0, 0]) rotate(a=45)
-        arc(radius=radius, thick=thick*2, angle=90);
+    translate([-radius-thick, 0, 0]) rotate(a=30)
+        arc(radius=radius, thick=thick*2, angle=60);
 
-    translate([radius+thick, 0, 0]) rotate(a=135)
-        arc(radius=radius, thick=thick*2, angle=90);
+    translate([radius+thick, 0, 0]) rotate(a=150)
+        arc(radius=radius, thick=thick*2, angle=60);
 
     circle(thick);
-    translate([-radius-thick, radius+thick]) circle(thick);
-    translate([+radius+thick, radius+thick]) circle(thick);
+    translate([(-radius-thick) * cos(60), (radius+thick) * sin(60)]) circle(thick);
+    translate([(+radius+thick) * cos(60), (radius+thick) * sin(60)]) circle(thick);
 }
 
 shogi_move_jump();
