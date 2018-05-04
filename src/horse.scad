@@ -9,9 +9,12 @@ shogi_piece() {
     shogi_koma_slim();
     shogi_move_jump();
     union() {
+        scale([0.5, 0.5]) translate([10, -18])
+            shogi_move_jump();
+    }
+    union() {
         shogi_rank_1();
         shogi_rank_2();
         shogi_move_step(edges=[0, 1, 2, 4, 6, 7]);
     }
-    union() {}
 }
