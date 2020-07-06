@@ -6,7 +6,7 @@ This repo contains the result of a two-nighter experiment with the following goa
 
 ## Original design
 
-The project is based on [International Shogi by Marc Novella](http://www.marcnovella.com/personal/universal-shogi/?lang=en), which is licensed under [(CC) BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/deed.ca).  
+The project is based on [International Shogi by Marc Novella](http://www.marcnovella.com/personal/universal-shogi/?lang=en) ([archive link](http://web.archive.org/web/20161024130320/http://www.marcnovella.com/personal/universal-shogi/?lang=en)), which is licensed under [(CC) BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/deed.ca).  
 Therefore, this project is available similarly under a non-commercial license: [![](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Rendering
